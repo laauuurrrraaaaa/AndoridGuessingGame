@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.Detail6Fragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left_detail6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/right_detail6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.97" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/top_detail6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/bottom_detail6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <TextView
+        android:id="@+id/question5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="@string/question5"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/right_detail6"
+        app:layout_constraintStart_toStartOf="@+id/left_detail6"
+        app:layout_constraintTop_toTopOf="@+id/top_detail6"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/answer1_detail6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="180dp"
+        android:text="@string/elephant"
+        android:textColor="#FF5722"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_detail6"
+        app:layout_constraintEnd_toStartOf="@+id/right_detail6"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/left_detail6"
+        app:layout_constraintTop_toBottomOf="@+id/question5" />
+
+    <Button
+        android:id="@+id/answer2_detail6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="180dp"
+        android:text="@string/donkey"
+        android:textColor="#F5FF8D"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_detail6"
+        app:layout_constraintEnd_toStartOf="@+id/right_detail6"
+        app:layout_constraintStart_toStartOf="@+id/left_detail6"
+        app:layout_constraintTop_toBottomOf="@+id/question5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

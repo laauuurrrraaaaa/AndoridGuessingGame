@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.qli38.qli38_p3.ui.main.DetailFragment"
+        android:label="@string/checkotherplayers"
+        tools:layout="@layout/fragment_detail">
+        <action
+            android:id="@+id/action_detailFragment_to_detail2Fragment"
+            app:destination="@id/detail2Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_detailFragment_to_dataEntryFragment32"
+            app:destination="@id/dataEntryFragment3"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.qli38.qli38_p3.ui.main.SettingFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting">
+        <action
+            android:id="@+id/action_settingFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.qli38.qli38_p3.ui.main.InfoFragment"
+        android:label="@string/info"
+        tools:layout="@layout/fragment_info">
+        <action
+            android:id="@+id/action_infoFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/detail2Fragment"
+        android:name="com.qli38.qli38_p3.ui.main.Detail2Fragment"
+        android:label="@string/game"
+        tools:layout="@layout/fragment_detail2">
+        <action
+            android:id="@+id/action_detail2Fragment_to_detail3Fragment"
+            app:destination="@id/detail3Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/detail3Fragment"
+        android:name="com.qli38.qli38_p3.ui.main.Detail3Fragment"
+        android:label="@string/game"
+        tools:layout="@layout/fragment_detail3">
+        <action
+            android:id="@+id/action_detail3Fragment_to_detail4Fragment"
+            app:destination="@id/detail4Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.qli38.qli38_p3.ui.main.MainFragment"
+        android:label="@string/welcome"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_settingFragment"
+            app:destination="@id/settingFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_mainFragment_to_detailFragment"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_infoFragment"
+            app:destination="@id/infoFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_mainFragment_to_webviewFragment"
+            app:destination="@id/webviewFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/dataEntryFragment3"
+        android:name="com.qli38.qli38_p3.ui.main.DataEntryFragment"
+        android:label="@string/addYou"
+        tools:layout="@layout/fragment_data_entry_detail">
+        <action
+            android:id="@+id/action_dataEntryFragment3_to_detailFragment"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/detail4Fragment"
+        android:name="com.qli38.qli38_p3.ui.main.Detail4Fragment"
+        android:label="@string/game"
+        tools:layout="@layout/fragment_detail4">
+        <action
+            android:id="@+id/action_detail4Fragment_to_detail5Fragment"
+            app:destination="@id/detail5Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/detail5Fragment"
+        android:name="com.qli38.qli38_p3.ui.main.Detail5Fragment"
+        android:label="@string/game"
+        tools:layout="@layout/fragment_detail5">
+        <action
+            android:id="@+id/action_detail5Fragment_to_detail6Fragment"
+            app:destination="@id/detail6Fragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/detail6Fragment"
+        android:name="com.qli38.qli38_p3.ui.main.Detail6Fragment"
+        android:label="@string/game"
+        tools:layout="@layout/fragment_detail6">
+        <action
+            android:id="@+id/action_detail6Fragment_to_resultFragment"
+            app:destination="@id/resultFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.qli38.qli38_p3.ui.main.ResultFragment"
+        android:label="@string/Result"
+        tools:layout="@layout/fragment_result">
+        <action
+            android:id="@+id/action_resultFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/webviewFragment"
+        android:name="com.qli38.qli38_p3.webview.WebviewFragment"
+        android:label="@string/webview"
+        tools:layout="@layout/webview_fragment" >
+        <action
+            android:id="@+id/action_webviewFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+</navigation>

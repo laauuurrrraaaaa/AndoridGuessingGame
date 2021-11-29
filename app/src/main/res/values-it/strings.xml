@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">qli38_p3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_game">NUOVO GIOCO</string>
+    <string name="setting">AMBIENTAZIONE</string>
+    <string name="newLink">NUOVO LINK</string>
+    <string name="back">INDIETRO</string>
+    <string name="info">INFORMAZIONE</string>
+    <string name="detail_title">Guarda chi altro ha giocato a questo gioco:</string>
+    <string name="version">Versione: 1.0.0</string>
+    <string name="copyright">Copyright &#169; 2021, Qianqian Li</string>
+    <string name="question1">Qual è il testo nel grafico?</string>
+    <string name="BLUE">BLU</string>
+    <string name="red">ROSSA</string>
+    <string name="question2">Qual è il numero nascosto nel grafico?</string>
+    <string name="one">1</string>
+    <string name="four">4</string>
+    <string name="check">CONTROLLA LA TUA RISPOSTA</string>
+    <string name="confirm">Voler provare?</string>
+    <string name="yes">SÌ</string>
+    <string name="no">NO</string>
+    <string name="welcome">Benvenuta</string>
+    <string name="welcome_title">Benvenuto in Tricky Quiz! Pronto per iniziare?</string>
+    <string name="show_message">Mostra messaggio all\'inizio</string>
+    <string name="edit_first_name">Nome di battesimo</string>
+    <string name="edit_comment">Lascia una nota per gli altri giocatori</string>
+    <string name="edit_nickname">Soprannome</string>
+    <string name="edit_last_name">Cognome</string>
+    <string name="player_add_alter">Nuovo giocatore aggiunto con successo:% s</string>
+    <string name="show_hidden_image">Mostra immagine nascosta</string>
+    <string name="question3">Qual è la pianta nascosta nel grafico?</string>
+    <string name="leaf">FOGLIA</string>
+    <string name="grass">ERBA</string>
+    <string name="question4">Chi ha lo stesso colore di "GE"?</string>
+    <string name="question5">Dai un\'occhiata in giro, cattura l\'animale nascosto!</string>
+    <string name="elephant">ELEFANTESSA</string>
+    <string name="donkey">ASINA</string>
+    <string name="go">PARTIRE</string>
+
+
+    <string name="effect">Effetto</string>
+    <string name="add_player">Aggiungimi</string>
+    <string name="wrong">Potresti provare di nuovo 😢</string>
+    <string name="webview">Webview</string>
+    <string name="checkotherplayers">Controlla altri giocatori</string>
+    <string name="game">Gioco</string>
+    <string name="Result">Risultato</string>
+    <string name="addYou">Aggiungi il tuo nome</string>
+
+    <string-array name="effects">
+        <item>Piazza delle colture</item>
+        <item>Cerchio nel grano</item>
+    </string-array>
+
+    <string-array name="effect_values">
+        <item>0</item>
+        <item>1</item>
+
+    </string-array>
+</resources>
